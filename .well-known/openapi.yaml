@@ -3,6 +3,8 @@ info:
   title: SYNDESIS API
   description: Basic SYNDESIS plugin API for environment-based triggers
   version: "1.0.0"
+servers:
+  - url: https://syndesis.social
 paths:
   /status:
     get:
@@ -19,5 +21,3 @@ paths:
                   status:
                     type: string
                     example: "active"
-servers:
-  - url: https://syndesis.social
