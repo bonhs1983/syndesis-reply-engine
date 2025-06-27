@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://syndesis.social/.well-known/openapi.yaml"
+    "url": "https://syndesis.social/well-known/openapi.yaml"
   },
   "logo_url": "https://syndesis.social/logo.png",
   "contact_email": "info@syndesis.social",
