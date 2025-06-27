@@ -16,7 +16,7 @@
   "legal_info_url": "https://syndesis.social/legal",
   "servers": [
     {
-      "url": "https://syndesis.social"
+      "url": "https://syndesis.social/"
     }
   ]
 }
