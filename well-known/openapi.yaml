@@ -1,0 +1,37 @@
+openapi: 3.1.0
+info:
+  title: SYNDESIS Plugin API
+  description: API for trigger-based responses with no user input. Activates from context signals (idle, tab, scroll, time).
+  version: "1.0.0"
+servers:
+  - url: https://syndesis.social
+paths:
+  /postTrigger:
+    post:
+      summary: Activate response based on environmental trigger
+      operationId: postTrigger
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                event:
+                  type: string
+                  description: Trigger event (e.g. idle, scroll, return_tab, time_change)
+                timestamp:
+                  type: string
+                  format: date-time
+                  description: Time of trigger event
+      responses:
+        '200':
+          description: Trigger processed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  response:
+                    type: string
+                    description: System-generated contextual reply
