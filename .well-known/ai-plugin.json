@@ -3,7 +3,7 @@
   "name_for_human": "SYNDESIS",
   "name_for_model": "syndesis_plugin",
   "description_for_human": "Context-based internal response system (no prompt input).",
-  "description_for_model": "Trigger-activated assistant that responds based on environmental signals: time, scroll, tab return, idle — without user prompts.",
+  "description_for_model": "Trigger-activated assistant that responds based on environmental signals: time, scroll, tab return, idle – without user prompts.",
   "auth": {
     "type": "none"
   },
