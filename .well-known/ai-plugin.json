@@ -13,5 +13,10 @@
   },
   "logo_url": "https://syndesis.social/logo.png",
   "contact_email": "info@syndesis.social",
-  "legal_info_url": "https://syndesis.social/legal"
+  "legal_info_url": "https://syndesis.social/legal",
+  "servers": [
+    {
+      "url": "https://syndesis.social"
+    }
+  ]
 }
